@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CFEEC14C-9C0D-44FB-A2C6-80E33DDC4A4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SafariLauncher</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE4624FD-029D-4413-AFE8-5F3658DF461A</key>
+		<string>https://github.com/snevesbarros/SafariLauncher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SafariLauncher.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE4624FD-029D-4413-AFE8-5F3658DF461A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/snevesbarros/SafariLauncher.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE4624FD-029D-4413-AFE8-5F3658DF461A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE4624FD-029D-4413-AFE8-5F3658DF461A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SafariLauncher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
