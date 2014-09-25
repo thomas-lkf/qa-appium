@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/thomas/Movies/qa-appium/submodules/SafariLauncher/SafariLauncher/main.m \
-  /Users/thomas/Movies/qa-appium/submodules/SafariLauncher/SafariLauncher/AppDelegate.h
+  /Users/thomas/Documents/thomas/popsugar/src/web/vendor/popsugar/qa-appium/submodules/SafariLauncher/SafariLauncher/main.m \
+  /Users/thomas/Documents/thomas/popsugar/src/web/vendor/popsugar/qa-appium/submodules/SafariLauncher/SafariLauncher/AppDelegate.h
