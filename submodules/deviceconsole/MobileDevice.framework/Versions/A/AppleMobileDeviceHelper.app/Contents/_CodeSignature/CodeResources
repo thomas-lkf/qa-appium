@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/AppleMobileBackup</key>
 		<data>
-		GXwv4GbI1Ksoda0CqG0FgG7OQ6U=
+		QwqvZt3tFmn4zNBdnuKLY59scQ0=
 		</data>
 		<key>Resources/ClientDescription.plist</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Resources/MDCrashReportTool</key>
 		<data>
-		N3/lzDhh9I+XHuSI6LNK2rgRQvQ=
+		z4wMsTH8u9paO23G4p9SBX04NXg=
 		</data>
 		<key>Resources/iPodSyncClientImages.icns</key>
 		<data>
@@ -58,7 +58,74 @@
 		</data>
 		<key>version.plist</key>
 		<data>
-		puWvBJUiAq5hufMEeNo6swlkKFQ=
+		7BpchyfAToG3B3ubRbBn94naz+s=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Info.plist</key>
+		<data>
+		7Il+o83I5/PKy2/4r75bUO5qByQ=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/AppleMobileBackup</key>
+		<data>
+		QwqvZt3tFmn4zNBdnuKLY59scQ0=
+		</data>
+		<key>Resources/ClientDescription.plist</key>
+		<data>
+		6134ZbKmDiZmESqNbEiG88vruvE=
+		</data>
+		<key>Resources/ClientDescription20.plist</key>
+		<data>
+		TV08NP+ZK+E1tuEztmkD+4mtwww=
+		</data>
+		<key>Resources/ClientDescription30.plist</key>
+		<data>
+		ocqXQaYMcGLjcbXe2tfceh6sHSg=
+		</data>
+		<key>Resources/ClientDescription33.plist</key>
+		<data>
+		JQApM0H52NJTaIy00ESveI7GJ9s=
+		</data>
+		<key>Resources/ClientDescription33Tiger.plist</key>
+		<data>
+		wuVDw6FyiYAntQ17vM2brl+Ov4c=
+		</data>
+		<key>Resources/ClientDescription40.plist</key>
+		<data>
+		yEjhSeuS4+H8GFtm/zyQddOomDM=
+		</data>
+		<key>Resources/ClientDescription40Tiger.plist</key>
+		<data>
+		AxDffNhnEHkXWkusCFIgAthz0Is=
+		</data>
+		<key>Resources/ClientDescription50.plist</key>
+		<data>
+		T9AqND1bdDe3gYhPv95s24RS5U8=
+		</data>
+		<key>Resources/ClientDescription50SnowLeopard.plist</key>
+		<data>
+		yEjhSeuS4+H8GFtm/zyQddOomDM=
+		</data>
+		<key>Resources/ClientDescription50Tiger.plist</key>
+		<data>
+		AxDffNhnEHkXWkusCFIgAthz0Is=
+		</data>
+		<key>Resources/MDCrashReportTool</key>
+		<data>
+		z4wMsTH8u9paO23G4p9SBX04NXg=
+		</data>
+		<key>Resources/iPodSyncClientImages.icns</key>
+		<data>
+		K2G+bv1n34Ab17MMs0l8BQn2ZOE=
+		</data>
+		<key>version.plist</key>
+		<data>
+		7BpchyfAToG3B3ubRbBn94naz+s=
 		</data>
 	</dict>
 	<key>rules</key>
@@ -134,6 +201,97 @@
 			<true/>
 			<key>weight</key>
 			<real>40</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>@[0-9]+</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>\.licns$</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>50</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|Plugins|Plug-ins|XPCServices|Helpers|MacOS)/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>0.0</real>
+		</dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>30</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>30</real>
+		</dict>
+		<key>^Resources/.*\.nib/classes\.nib$</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>5</real>
+		</dict>
+		<key>^Resources/.*\.nib/data\.dependency$</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>5</real>
+		</dict>
+		<key>^Resources/.*\.nib/designable\.nib$</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>5</real>
+		</dict>
+		<key>^Resources/.*\.nib/info\.nib$</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>5</real>
+		</dict>
+		<key>^Resources/BridgeSupport/[^/]*\.(bridgesupport|dylib)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^Resources/English\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>40</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>top</key>
+			<true/>
+			<key>weight</key>
+			<real>0.0</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
