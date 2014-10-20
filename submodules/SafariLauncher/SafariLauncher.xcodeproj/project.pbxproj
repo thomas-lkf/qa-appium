@@ -154,6 +154,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Bytearc;
+				TargetAttributes = {
+					0CF376AE175F268800CF1F65 = {
+						DevelopmentTeam = B8Q4D6JC2S;
+					};
+				};
 			};
 			buildConfigurationList = 0CF376AA175F268800CF1F65 /* Build configuration list for PBXProject "SafariLauncher" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -278,13 +283,14 @@
 		0CF376CD175F268800CF1F65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "${IDENTITY_NAME}";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: thomas Li (9MWQMLCY3L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariLauncher/SafariLauncher-Prefix.pch";
 				INFOPLIST_FILE = "SafariLauncher/SafariLauncher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=*]" = "${IDENTITY_CODE}";
+				"PROVISIONING_PROFILE[sdk=*]" = "b0ec75e4-7214-48c0-ad79-56e0da527063";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -292,13 +298,14 @@
 		0CF376CE175F268800CF1F65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "${IDENTITY_NAME}";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: thomas Li (9MWQMLCY3L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariLauncher/SafariLauncher-Prefix.pch";
 				INFOPLIST_FILE = "SafariLauncher/SafariLauncher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=*]" = "${IDENTITY_CODE}";
+				"PROVISIONING_PROFILE[sdk=*]" = "b0ec75e4-7214-48c0-ad79-56e0da527063";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -10,24 +10,48 @@
 	<string>SafariLauncher</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>7781EC792A18E2182B3E36580A0DC13FF632C830</key>
+		<string>http://github.com/popsugar/web.git</string>
+		<key>796CCC1BFE3A58A8A6153AE324EC243741D7727C</key>
+		<string>http://github.com/thomas-lkf/qa-appium.git</string>
 		<key>DE4624FD-029D-4413-AFE8-5F3658DF461A</key>
 		<string>https://github.com/snevesbarros/SafariLauncher.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SafariLauncher.xcodeproj/project.xcworkspace</string>
+	<string>submodules/SafariLauncher/SafariLauncher.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>7781EC792A18E2182B3E36580A0DC13FF632C830</key>
+		<string>../../../../../../..</string>
+		<key>796CCC1BFE3A58A8A6153AE324EC243741D7727C</key>
+		<string>../../../..</string>
 		<key>DE4624FD-029D-4413-AFE8-5F3658DF461A</key>
-		<string>../..</string>
+		<string>../../../../../SafariLauncher</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/snevesbarros/SafariLauncher.git</string>
+	<string>http://github.com/thomas-lkf/qa-appium.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DE4624FD-029D-4413-AFE8-5F3658DF461A</string>
+	<string>796CCC1BFE3A58A8A6153AE324EC243741D7727C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7781EC792A18E2182B3E36580A0DC13FF632C830</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>796CCC1BFE3A58A8A6153AE324EC243741D7727C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>qa-appium</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
