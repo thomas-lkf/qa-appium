@@ -283,7 +283,7 @@
 		0CF376CD175F268800CF1F65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: thomas Li (9MWQMLCY3L)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: thomas Li (9MWQMLCY3L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariLauncher/SafariLauncher-Prefix.pch";
@@ -298,7 +298,7 @@
 		0CF376CE175F268800CF1F65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: thomas Li (9MWQMLCY3L)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: thomas Li (9MWQMLCY3L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariLauncher/SafariLauncher-Prefix.pch";
