@@ -3,7 +3,8 @@
 #   reset.sh: INSTALL OR RESET APPIUM
 #   This script should ensure that after pulling the most recent code,
 #   you will be in a state where you can run tests and use appium
-#
+#   this is a test script add by thomas.
+
 set -e
 should_reset_android=false
 should_reset_ios=false
